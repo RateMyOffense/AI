@@ -12,7 +12,7 @@ images_old_dir = '/home/ubuntu/images/offensive_old'
 
 # Create an 'app' object based off our Clarifai API Key
 # This gives us access to the API
-app = ClarifaiApp("J776KJ-Ob-GtKnS_jylW-yxWrT-gmDrHfRLzeJG-", "1eevauzVbedZnKdcuMCGoZHtzLVSaJ5ndeANzdBG")
+app = ClarifaiApp("", "")
 
 files = [f for f in listdir(images_dir) if isfile(join(images_dir, f))]
 
